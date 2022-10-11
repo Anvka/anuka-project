@@ -37,4 +37,3 @@ with open('test.csv', mode='r') as csv_file:
 result = mailjet.send.create(data=data)
 print(result.status_code)
 print(result.json())
-
